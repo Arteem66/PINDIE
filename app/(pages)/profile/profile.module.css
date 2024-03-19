@@ -1,0 +1,28 @@
+.profile{
+  max-width: 1000px; 
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
+.profile-title{
+  margin-bottom: 30px;
+}
+
+.profile-info-list{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.profile-info-item{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-item-descr{
+  margin-left: 20px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
