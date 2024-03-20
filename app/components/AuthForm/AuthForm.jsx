@@ -40,14 +40,14 @@ export const AuthForm = (props) => {
 	}
 
 	useEffect(() => {
-		let timer
-		if (authContext.user) {
-			timer = setTimeout(() => {
-				setMessage({ status: null, text: null })
-				props.isClose()
-			}, 1000)
-		}
-	}, [authContext.user])
+			let timer
+			if (authContext.user) {
+				timer = setTimeout(() => {
+					setMessage({ status: null, text: null })
+					props.isClose()
+				}, 1000)
+			}
+		},[authContext.user])
 
 	
 
@@ -80,7 +80,7 @@ export const AuthForm = (props) => {
 				Зарегистрироваться можно
 				<Link
 					href={'/register'}
-					onClick={(props.isClose, handleMessage)}
+					onClick={props.isClose}
 					className={Styles['register-link']}
 				>
 					тут
