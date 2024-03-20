@@ -57,6 +57,13 @@
   gap: 8px;
 }
 
+.form__button{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 8px;
+}
+
 .form__reset {
   font-family: "Rubic One", sans-serif;
   background-color: transparent;
@@ -102,4 +109,10 @@
 .form__submit:disabled {
   opacity: .5;
   pointer-events: none;
+}
+
+@media screen and (max-width: 650px) {
+  .form__button{
+    flex-direction: column-reverse;
+  }
 }

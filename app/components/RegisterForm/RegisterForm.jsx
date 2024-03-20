@@ -69,7 +69,7 @@ export const RegisterForm = () => {
 			{message.status && (
 				<p className={Styles['form__message']}>{message.text}</p>
 			)}
-			<div className={Styles['form__actions']}>
+			<div className={Styles['form__button']}>
 				<button className={Styles['form__reset']} type='reset'>
 					Очистить
 				</button>
