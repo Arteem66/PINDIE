@@ -1,29 +1,25 @@
-'use client'
+'use client';
 
-import { Header } from './components/Header/Header'
-import { Footer } from './components/Footer/Footer'
+import { Header } from './components/Header/Header';
+import { Footer } from './components/Footer/Footer';
 
-import { useEffect } from 'react'
+import { useEffect } from 'react';
 
-import { useStore } from './store/app-store'
+import { useStore } from './store/app-store';
 
-export const App = props => {
-	/* Используем хук-хранилище */
-	const store = useStore()
+export const App = (props) => {
 
-	useEffect(() => {
-		/* 
-    Проверяем, авторизован ли пользователь, 
-    функцией checkAuth из хранилища 
-  */
-		store.checkAuth()
-	}, [])
+  const store = useStore();
 
-	return (
-		<>
-			<Header />
-			{props.children}
-			<Footer />
-		</>
-	)
-}
+  useEffect(() => {
+    store.checkAuth();
+  }, []);
+
+  return (
+    <>
+      <Header />
+      {props.children}
+      <Footer />
+    </>
+  ) 
+};

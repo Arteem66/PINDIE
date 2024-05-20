@@ -47,19 +47,19 @@
   color: black;
 }
 
-@media (width <=1440px) {
+@media (width <= 1440px) {
   .footer {
     padding: 0px 90px 0px 24px;
   }
 }
 
-@media (width <=768px) {
+@media (width <= 768px) {
   .footer {
     padding-right: 0;
   }
 }
 
-@media (width <=650px) {
+@media (width <= 650px) {
   .footer {
     flex-direction: column;
     padding: 14px;
@@ -76,3 +76,6 @@
     font-size: 24px;
   }
 }
+
+
+

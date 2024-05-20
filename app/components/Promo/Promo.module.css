@@ -53,7 +53,7 @@
   cursor: default;
 }
 
-@media (width <=1440px) {
+@media (width <= 1440px) {
   .promo {
     padding: 40px 120px;
   }
@@ -61,35 +61,33 @@
   .promo__title {
     font-size: 30px;
   }
-
   .promo__description {
     font-size: 20px;
     margin-left: 90px;
   }
-
   .promo__button {
     margin-left: 90px;
   }
 }
 
-@media (width <=768px) {
-
-  .promo__description {
-    margin-left: 0;
-  }
-
-  .promo__button {
-    margin-left: 0;
-  }
-}
-
-@media (width <=1024px) {
+@media (width <= 1024px) {
   .promo {
     padding: 80px 40px;
   }
 }
 
-@media (width <=650px) {
+@media (width <= 768px) {
+
+  .promo__description {
+    margin-left: 0;
+  }
+
+  .promo__button {
+    margin-left: 0;
+  }
+}
+
+@media (width <= 650px) {
   .promo {
     grid-template-columns: 1fr;
     gap: 80px;
@@ -101,3 +99,4 @@
     justify-self: start;
   }
 }
+

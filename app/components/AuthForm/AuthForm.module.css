@@ -35,29 +35,11 @@
   font-size: 22px;
 }
 
-.register-text{
-  padding: 10px 0;
-}
-
-.register-link{
-  background-color: #FFFF00;
-  padding: 5px;
-  margin-left: 10px;
-}
-
 .form__message {
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .form__actions {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  gap: 8px;
-}
-
-.form__button{
   display: flex;
   justify-content: center;
   width: 100%;
@@ -109,10 +91,4 @@
 .form__submit:disabled {
   opacity: .5;
   pointer-events: none;
-}
-
-@media screen and (max-width: 650px) {
-  .form__button{
-    flex-direction: column-reverse;
-  }
 }
