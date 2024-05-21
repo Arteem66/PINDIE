@@ -1,1 +1,1 @@
-Мой бэкенд: [pindiebacksaldnevo.](https://pindiebacksaldnevo.nomoredomainswork.ru/)
+Мой бэкенд: https://pindiebacksaldnevo.nomoredomainswork.ru/
